@@ -1,0 +1,44 @@
+
+/* Button styling */
+.signup-signin-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .signup-signin-button:hover {
+    background-color: #0053ba;
+    transform: scale(1.05);
+  }
+  
+  .signup-signin-button:active {
+    background-color: #003a8c;
+    transform: scale(0.95);
+  }
+  
+ 
+
+/* Default light theme */
+body {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Dark theme */
+  body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  /* Button styling */
+  .dark-mode-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
